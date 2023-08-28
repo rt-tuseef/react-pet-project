@@ -1,0 +1,91 @@
+.contact {
+    display: flex;
+    padding: 50px 0;
+    height: calc(100vh - 50px);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/7457643/pexels-photo-7457643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      );
+    padding: 20px;
+    border-radius: 10px;
+}
+.contactTilte {
+    margin: 50px;
+}
+
+.contactForm{
+    margin: 50px;
+    text-align: center;
+}
+
+.contactInput {
+    padding: 10px;
+    background-color: rgb(207, 207, 207);
+    border: none;
+    border-radius: 10px;
+  }
+
+
+.contactTilte h1 {
+    margin: 0;
+  font-family: "Lora", serif;
+
+  }
+  
+  .contactTilte h4 {
+    margin: 5px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .text {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+  }
+  
+  .text i {
+    color: grey;
+    margin-right: 10px;
+  }
+  .contactList{
+    display: flex;
+    flex-direction: column;
+
+    align-items: left;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .contactListItem{
+      display: flex;
+      flex-direction: row;
+  }
+  .contactForm >label{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .contactButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
